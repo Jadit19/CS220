@@ -1,0 +1,4 @@
+# Lab 3
+
+1. Design a Mod-10 asynchronous counter using T flipflop. For this design, there are 16 possible states, but only 0 to 9 will be valid states. The initial state will be 0000 and after 9 clock cycles it should go to 1001. But at 10-th clock cycle, it should reset to initial 0000 state. You have to make sure that the state change occur after 1 second. This code will be evaluated in FPGA.
+2. A sequence detector is a sequential machine which produces an output 1 every time the desired sequence is detected and output 0 at all other time. Design a moore type model of a sequence detector to detect the sequence 1010 and overlapping should be allowed. For example, if the input sequence is 01101010, the corresponding output will be 00000101. You have to show the finite state machine diagram to the TAs in the lab session along with the simulated output in ISIM.

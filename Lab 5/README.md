@@ -1,0 +1,3 @@
+# Lab 5
+
+The objective of this assignment is to compute the 32 bit floating point addition. You have to interface the floating point adder with the Veda memory that was designed in the assignment no 4. The inputs to the floating point adder and the correct output are stored in this memory. The floating point adder module will read the inputs from the memory and after computing their addition, compare the result with the pre-stored output. If the pre-stored output from the memory and the floating point adder output match, one LED of the FPGA will be set to one, otherwise it is set to zero.
